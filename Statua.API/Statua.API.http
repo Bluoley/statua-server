@@ -1,0 +1,6 @@
+@Statua.API_HostAddress = http://localhost:5216
+
+GET {{Statua.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
