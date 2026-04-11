@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/1. Core/">
+    <Project Path="Statua.Domain/Statua.Domain.csproj" />
+    <Project Path="Statua.Application/Statua.Application.csproj" />
+  </Folder>
+
+  <Folder Name="/2. Infrastructure/">
+    <Project Path="Statua.Infrastructure/Statua.Infrastructure.csproj" />
+    <Project Path="Statua.DependencyInjection/Statua.DependencyInjection.csproj" />
+  </Folder>
+
+  <Folder Name="/3. Entry Points/">
+    <Project Path="Statua.API/Statua.API.csproj" />
+  </Folder>
+</Solution>

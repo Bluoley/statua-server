@@ -1,0 +1,77 @@
+## --- .NET Core / C# Professional ---
+[Bb]in/
+[Oo]bj/
+**/[Bb]in/
+**/[Oo]bj/
+
+## --- Secretos y Configuración (CRÍTICO) ---
+appsettings.Local.json
+*.user secrets.json
+
+
+## --- Visual Studio & IDEs ---
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.patch
+*.diff
+
+## --- NuGet & Dependencias ---
+*.nupkg
+*.snupkg
+packages/
+**/packages/
+# Archivos de restauración de paquetes
+project.lock.json
+project.fragment.lock.json
+
+## --- Testing & Reportes ---
+TestResults/
+**/TestResults/
+*.trx
+*.coveragereport
+*.coverage
+
+## --- Base de Datos Local (SQL Express/LocalDB) ---
+*.mdf
+*.ldf
+*.sdf
+
+## --- Docker & OS ---
+.DS_Store
+Thumbs.db
+docker-compose.override.yml
+.env
+.env.local
+
+## --- Publicación (Publish) ---
+# Cuando haces el "build" final para producción
+**/publish/
+
+## Logs
+logs/
+*.log
+**/logs/
+
+#zed
+.rules
+
+## --- Entity Framework Core ---
+# No ignores los .cs de migraciones, pero sí los logs de ejecución
+*.log
+EF.ReversePoCo.Constructor.log
+
+## --- Herramientas de .NET ---
+.config/dotnet-tools.json
+
+## --- Node/Frontend (Si llegas a tener un SPA integrado) ---
+node_modules/
+npm-debug.log*
+
+## --- Archivos temporales de compilación específicos ---
+*.plog
+*.dgml
